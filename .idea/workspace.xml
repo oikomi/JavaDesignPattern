@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c0212b7-28de-41e9-95ef-5186c4b5a52b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Proxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/ProxyHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/RealSubject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/AbstractHumanFactory.class" afterPath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/AbstractHumanFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/BlackHuman.class" afterPath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/BlackHuman.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/Human.class" afterPath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/Human.class" />
@@ -24,9 +25,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerH2Model.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerH2Model.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerModel.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDesignPattern.iml" afterPath="$PROJECT_DIR$/JavaDesignPattern.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Proxy.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Proxy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/RealSubject.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/RealSubject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/singleton/Singleton.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/singleton/Singleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Subject.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Subject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/Test.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Test.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/Test.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/WhiteHuman.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/WhiteHuman.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/YellowHuman.java" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/YellowHuman.java" />
@@ -65,52 +70,47 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Subject.java">
+        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="RealSubject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/RealSubject.java">
+        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/RealSubject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="30" />
               <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Proxy.java">
+      <file leaf-file-name="ProxyHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/ProxyHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20703654">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.39106902">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="37" />
               <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Test.java">
+        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -155,6 +155,10 @@
         <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/RealSubject.java" />
         <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Test.java" />
         <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/Subject.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/RealSubject.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/Test.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/ProxyHandler.java" />
       </list>
     </option>
   </component>
@@ -333,7 +337,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="staticproxy" />
+              <option name="myItemId" value="dynamicproxy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -640,12 +644,12 @@
       <created>1435035332631</created>
       <option name="number" value="Default" />
       <updated>1435035332631</updated>
-      <workItem from="1435035337643" duration="8053000" />
+      <workItem from="1435035337643" duration="9496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8053000" />
+    <option name="totallyTimeSpent" value="9496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -702,12 +706,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#647#850#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#647#850#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#935#936#0" expanded="false" />
+            <element signature="e#969#970#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -717,10 +721,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="false" />
+            <element signature="e#197#198#0" expanded="false" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#272#273#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -730,10 +734,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="false" />
+            <element signature="e#198#199#0" expanded="false" />
+            <element signature="e#224#225#0" expanded="false" />
+            <element signature="e#273#274#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -751,10 +755,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="false" />
+            <element signature="e#197#198#0" expanded="false" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#272#273#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -796,8 +800,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="false" />
+            <element signature="e#512#513#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -807,18 +811,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
+            <element signature="e#311#312#0" expanded="false" />
+            <element signature="e#357#358#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#445#446#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#637#638#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -828,16 +832,16 @@
         <state vertical-scroll-proportion="0.2300406">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="false" />
+            <element signature="e#215#216#0" expanded="false" />
+            <element signature="e#258#259#0" expanded="false" />
+            <element signature="e#303#304#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
+            <element signature="e#405#406#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#572#573#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -850,20 +854,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/RealSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.25304466">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding />
         </state>
@@ -882,6 +875,56 @@
             <element signature="e#364#365#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/staticproxy/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16102841">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/dynamicproxy/ProxyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39106902">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
