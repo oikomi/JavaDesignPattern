@@ -1,0 +1,8 @@
+/mh/mygo/src/github.com/oikomi/JavaDesignPattern/pattern/src/main/java/org/miaohong/factory/WhiteHuman.java
+/mh/mygo/src/github.com/oikomi/JavaDesignPattern/pattern/src/main/java/org/miaohong/factory/AbstractHumanFactory.java
+/mh/mygo/src/github.com/oikomi/JavaDesignPattern/pattern/src/main/java/org/miaohong/factory/BlackHuman.java
+/mh/mygo/src/github.com/oikomi/JavaDesignPattern/pattern/src/main/java/org/miaohong/factory/Human.java
+/mh/mygo/src/github.com/oikomi/JavaDesignPattern/pattern/src/main/java/org/miaohong/factory/HumanFactory.java
+/mh/mygo/src/github.com/oikomi/JavaDesignPattern/pattern/src/main/java/org/miaohong/singleton/Singleton.java
+/mh/mygo/src/github.com/oikomi/JavaDesignPattern/pattern/src/main/java/org/miaohong/factory/Test.java
+/mh/mygo/src/github.com/oikomi/JavaDesignPattern/pattern/src/main/java/org/miaohong/factory/YellowHuman.java
