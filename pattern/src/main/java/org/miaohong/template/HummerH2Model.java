@@ -5,22 +5,27 @@ package org.miaohong.template;
  */
 public class HummerH2Model extends HummerModel {
     @Override
-    public void start() {
+    protected void start() {
         System.out.println("H2 start");
     }
 
     @Override
-    public void stop() {
+    protected void stop() {
         System.out.println("H2 stop");
     }
 
     @Override
-    public void engnineBoom() {
+    protected void engnineBoom() {
         System.out.println("H2 engnineBoom");
     }
 
     @Override
-    public void alarm() {
+    protected void alarm() {
         System.out.println("H2 alarm");
+    }
+
+    @Override
+    protected boolean isAlarm() {
+        return false;
     }
 }

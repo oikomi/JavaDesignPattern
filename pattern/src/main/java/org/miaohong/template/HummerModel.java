@@ -4,15 +4,22 @@ package org.miaohong.template;
  * Created by haroldmiao on 2015/6/23.
  */
 public abstract class HummerModel {
-    public abstract void start();
-    public abstract void stop();
+    protected abstract void start();
+    protected abstract void stop();
 
-    public abstract void engnineBoom();
-    public abstract void alarm();
-    public void run() {
+    protected abstract void engnineBoom();
+    protected abstract void alarm();
+    public final void run() {
         this.start();
         this.engnineBoom();
-        this.alarm();
+        if (this.isAlarm()) {
+            this.alarm();
+        }
         this.stop();
+    }
+
+    //钩子方法
+    protected boolean isAlarm(){
+        return true;
     }
 }

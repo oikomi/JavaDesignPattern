@@ -4,23 +4,35 @@ package org.miaohong.template;
  * Created by haroldmiao on 2015/6/23.
  */
 public class HummerH1Model extends HummerModel{
+    private boolean isALarmFlag = true;
+
+    public void setIsALarmFlag(boolean isALarmFlag) {
+        this.isALarmFlag = isALarmFlag;
+    }
+
+
     @Override
-    public void start() {
+    protected void start() {
         System.out.println("H1 start");
     }
 
     @Override
-    public void stop() {
+    protected void stop() {
         System.out.println("H1 stop");
     }
 
     @Override
-    public void engnineBoom() {
+    protected void engnineBoom() {
         System.out.println("H1 engnineBoom");
     }
 
     @Override
-    public void alarm() {
+    protected void alarm() {
         System.out.println("H1 alarm");
+    }
+
+    @Override
+    protected boolean isAlarm() {
+        return isALarmFlag;
     }
 }
