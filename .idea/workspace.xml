@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c0212b7-28de-41e9-95ef-5186c4b5a52b" name="Default" comment="">
-      <change type="DELETED" beforePath="X:\mygo\src\github.com\oikomi\JavaDesignPattern\pattern\src\main\java\org\miaohong\factory\AbstractHumanFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="X:\mygo\src\github.com\oikomi\JavaDesignPattern\pattern\src\main\java\org\miaohong\factory\BlackHuman.class" afterPath="" />
-      <change type="DELETED" beforePath="X:\mygo\src\github.com\oikomi\JavaDesignPattern\pattern\src\main\java\org\miaohong\factory\Human.class" afterPath="" />
-      <change type="DELETED" beforePath="X:\mygo\src\github.com\oikomi\JavaDesignPattern\pattern\src\main\java\org\miaohong\factory\HumanFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="X:\mygo\src\github.com\oikomi\JavaDesignPattern\pattern\src\main\java\org\miaohong\factory\Test.class" afterPath="" />
-      <change type="DELETED" beforePath="X:\mygo\src\github.com\oikomi\JavaDesignPattern\pattern\src\main\java\org\miaohong\factory\WhiteHuman.class" afterPath="" />
-      <change type="DELETED" beforePath="X:\mygo\src\github.com\oikomi\JavaDesignPattern\pattern\src\main\java\org\miaohong\factory\YellowHuman.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerH2Model.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/AbstractHumanFactory.class" afterPath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/AbstractHumanFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/BlackHuman.class" afterPath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/BlackHuman.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/Human.class" afterPath="$PROJECT_DIR$/pattern/target/classes/org/miaohong/factory/Human.class" />
@@ -66,11 +61,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HumanFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HumanFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/HumanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16102841">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="47" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HummerModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HummerH1Model.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerH1Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="39" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HummerH2Model.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerH2Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20703654">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -126,6 +179,10 @@
         <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/AbstractHumanFactory.java" />
         <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/HumanFactory.java" />
         <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/Test.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerModel.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerH1Model.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerH2Model.java" />
+        <option value="$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/Test.java" />
       </list>
     </option>
   </component>
@@ -241,6 +298,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaDesignPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaDesignPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miaohong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -611,15 +702,15 @@
       <created>1435035332631</created>
       <option name="number" value="Default" />
       <updated>1435035332631</updated>
-      <workItem from="1435035337643" duration="4179000" />
+      <workItem from="1435035337643" duration="5593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4179000" />
+    <option name="totallyTimeSpent" value="5593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -748,8 +839,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/factory/HumanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16102841">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="47" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerH1Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/HummerH2Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/src/main/java/org/miaohong/template/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20703654">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
